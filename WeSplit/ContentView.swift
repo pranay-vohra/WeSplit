@@ -21,6 +21,7 @@ struct ContentView: View {
             Section{
                 Button("button Count: \(buttonCount)"){
                     buttonCount+=1
+                    
                 }
             }
         }
